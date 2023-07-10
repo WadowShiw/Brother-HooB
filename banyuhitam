@@ -164,7 +164,7 @@ function Update:Window(text,logo,keybind)
  Logo.BackgroundTransparency = 1.000
  Logo.Position = UDim2.new(-0.01, 0,-0.170, 0)
  Logo.Size = UDim2.new(0, 55,0, 45)
-Logo.Image = "rbxassetid://13131915350"
+Logo.Image = "rbxassetid://11134899660"
 
 	local Name = Instance.new("TextLabel")
 	Name.Name = "Name"
