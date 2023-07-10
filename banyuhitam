@@ -33,7 +33,7 @@ local ThunderImageUI = Instance.new("ImageLabel")
         ThunderImageUI.BorderSizePixel = 0
         ThunderImageUI.Position = UDim2.new(0.0, 0, 0.0, 0)
         ThunderImageUI.Size = UDim2.new(0, 50, 0, 50)
-        ThunderImageUI.Image = "http://www.roblox.com/asset/?id=13131915350"
+        ThunderImageUI.Image = "http://www.roblox.com/asset/?id=11134899660"
 
 local SOMEXHUB = {}
 local UserInputService = game:GetService("UserInputService")
@@ -122,7 +122,7 @@ local pfp = "https://www.roblox.com/headshot-thumbnail/image?userId=".. game.Pla
 function Update:Window(text,logo,keybind)
 	local uihide = false
 	local abc = false
-	local logo = logo or 13131915350
+	local logo = 11134899660
 	local currentpage = ""
 	local keybind = keybind or Enum.KeyCode.RightControl
 	local yoo = string.gsub(tostring(keybind),"Enum.KeyCode.","")
