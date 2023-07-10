@@ -33,7 +33,7 @@ local ThunderImageUI = Instance.new("ImageLabel")
         ThunderImageUI.BorderSizePixel = 0
         ThunderImageUI.Position = UDim2.new(0.0, 0, 0.0, 0)
         ThunderImageUI.Size = UDim2.new(0, 50, 0, 50)
-        ThunderImageUI.Image = "http://www.roblox.com/asset/?id=11134899660"
+        ThunderImageUI.Image = "https://www.roblox.com/library/11134899660/thunder"
 
 local SOMEXHUB = {}
 local UserInputService = game:GetService("UserInputService")
@@ -164,10 +164,10 @@ function Update:Window(text,logo,keybind)
  Logo.BackgroundTransparency = 1.000
  Logo.Position = UDim2.new(-0.01, 0,-0.170, 0)
  Logo.Size = UDim2.new(0, 55,0, 45)
-Logo.Image = "rbxassetid://11134899660"
+Logo.Image = "https://www.roblox.com/library/11134899660/thunder"
 
 	local Name = Instance.new("TextLabel")
-	Name.Name = "Name"
+	Name.Name = "Brother HooB"
 	Name.Parent = Top
 	Name.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 	Name.BackgroundTransparency = 1.000
@@ -179,7 +179,7 @@ Logo.Image = "rbxassetid://11134899660"
 	Name.TextSize = 17.000
 	
 	local Hub = Instance.new("TextLabel")
-	Hub.Name = "Hub"
+	Hub.Name = "Brother HooB"
 	Hub.Parent = Top
 	Hub.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 	Hub.BackgroundTransparency = 1.000
